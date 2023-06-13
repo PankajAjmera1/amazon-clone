@@ -136,28 +136,32 @@ span{
 }
 .panel-all{
     display: flex;
-   /* padding-right: 15px; */
-   width: 5%;
+   padding-left: 25px;
+   /* width: 5%; */
    /* background-color: #febd68; */
    size: 25px;
 }
 .panel-all p{
     margin-left: 5px;
     size: 15px;
+    display: inline;
 }
 
 .panel-ops ul{
+    
     height: 40px;
     display: flex;
     
     list-style: none;
-    justify-content:space-around;
+    justify-content:space-evenly;
     width: 40%;
  
     align-items: center;
     font-size: 0.95rem;
+ 
     
 }
+
 .panel-ops{
     width: 80%;
     font-size: 0.85rem;
@@ -167,7 +171,49 @@ span{
     font-weight: 700;
     font-size: 0.95rem;
 
-   
 
+}
+.hero-section{
+    background-image:url("./Images/hero_image.jpg") ;
+    height: 380px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+
+}
+.hero-message{
+    background-color: #ffffff;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+    
+    
+
+}
+.hero-message a{
+    color:#007185 ;
+
+
+}
+
+
+/* Shop Section */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+     
+}
+.box{
+   border: 2px solid black;
+   height: 400px;
+   width: 23%;
 }
 
